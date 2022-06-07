@@ -5,7 +5,7 @@ from pymongo import MongoClient, GEOSPHERE, InsertOne
 from pymongo.errors import BulkWriteError
 
 
-CONNECTION_STRING = "mongodb+srv://arah:arahdb@cluster0.rdpdj.mongodb.net/rethink?retryWrites=true&w=majority"
+CONNECTION_STRING = ""
 client = MongoClient(CONNECTION_STRING)
 database = client["rethink"]
 
